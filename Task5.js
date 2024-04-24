@@ -1,3 +1,5 @@
 function classTiming(timing){
-  let result = number.filter(timing => timing > )
+  let result = timing.filter(timing => timing.endsWith("PM"))
+  return result;
 }
+module.exports = classTiming;
