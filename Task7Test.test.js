@@ -10,7 +10,7 @@ test("get unhealthy  snacks", ()=> {
      { name: 'Soda', category: 'Beverages', isHealthy: false }]
 
      let result = getUnhealthySnacks4(shoppingList);
-     expect(result).toEqual()
+     expect(result).toEqual([])
 
     
   
